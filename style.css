@@ -1,0 +1,46 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+}
+
+.wholescreen {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.box {
+  margin: 1rem;
+  border: 2px;
+  width: 7rem;
+  height: 7rem;
+  background-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
